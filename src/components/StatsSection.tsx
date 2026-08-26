@@ -55,7 +55,7 @@ export const StatsSection = () => {
   ];
 
   return (
-    <section className="bg-[#E8450A]">
+    <section className="bg-[#FF6B00]">
       <div className="section-container">
         <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-white/20">
           {stats.map((stat, i) => (

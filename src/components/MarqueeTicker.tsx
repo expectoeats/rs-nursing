@@ -3,21 +3,21 @@
 import React from "react";
 
 const items = [
-  "GNM Nursing",
-  "ANM Nursing",
-  "B.Sc Nursing",
-  "Staff Nurse Exam",
-  "Anatomy & Physiology",
-  "Community Health",
-  "Midwifery",
-  "RS Nursing Career Point",
-  "Gorakhpur, UP",
-  "Gorakhpur's Top Nursing Coaching",
+  "SSC / CGL / CHSL",
+  "Railway / NTPC / Group D",
+  "UP Police / SI",
+  "Bank PO / Clerk",
+  "Current Affairs & GK",
+  "Reasoning & Maths",
+  "UPSSSC / Lekhpal",
+  "Kautilya Study Circle",
+  "Gonda, UP",
+  "Gonda's Top Competitive Coaching",
 ];
 
 export const MarqueeTicker = () => {
   return (
-    <div className="bg-[#E8450A] py-3 overflow-hidden relative z-20">
+    <div className="bg-[#FF6B00] py-3 overflow-hidden relative z-20">
       <div className="flex whitespace-nowrap animate-marquee">
         {[...Array(4)].map((_, i) => (
           <div key={i} className="flex items-center shrink-0">

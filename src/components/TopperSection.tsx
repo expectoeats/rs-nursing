@@ -5,38 +5,38 @@ import { Trophy } from "lucide-react";
 
 const toppers = [
   {
-    name: "Priya Tiwari",
-    rank: "GNM Topper",
-    exam: "GNM Entrance Exam · 2024",
+    name: "Rohit Kumar",
+    rank: "SSC CGL Cleared",
+    exam: "SSC CGL · 2024",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
+    batch: "2023-24",
+  },
+  {
+    name: "Priya Singh",
+    rank: "Railway NTPC",
+    exam: "RRB NTPC · 2024",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
   {
-    name: "Anjali Verma",
-    rank: "ANM 1st Rank",
-    exam: "ANM Entrance Exam · 2024",
+    name: "Amit Yadav",
+    rank: "UP Police SI",
+    exam: "UP Police SI · 2024",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
+    batch: "2023-24",
+  },
+  {
+    name: "Anita Verma",
+    rank: "Bank PO Selected",
+    exam: "IBPS PO · 2024",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
-    batch: "2023-24",
-  },
-  {
-    name: "Suman Yadav",
-    rank: "AIIMS Qualified",
-    exam: "Staff Nurse Exam · 2024",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",
-    batch: "2023-24",
-  },
-  {
-    name: "Rahul Gupta",
-    rank: "UP NHM Selected",
-    exam: "NHM Staff Nurse · 2024",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
 ];
 
 export const TopperSection = () => {
   return (
-    <section id="results" className="py-16 bg-[#E8450A] relative overflow-hidden">
+    <section id="results" className="py-16 bg-[#FF6B00] relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         {[
@@ -66,13 +66,13 @@ export const TopperSection = () => {
               Our Pride
             </p>
             <h2 className="text-2xl md:text-3xl font-bold text-white relative pb-3">
-              Successfully Produced 500+ Selected Nursing Professionals
+              Successfully Produced 500+ Selected Government Professionals
               <span className="absolute bottom-0 left-0 w-12 h-1 bg-white rounded" />
             </h2>
           </div>
           <a
             href="#contact"
-            className="inline-block bg-white text-[#E8450A] font-bold px-7 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg shrink-0"
+            className="inline-block bg-white text-[#FF6B00] font-bold px-7 py-3 rounded hover:bg-gray-100 transition-colors shadow-lg shrink-0"
           >
             View All Results
           </a>
@@ -86,7 +86,7 @@ export const TopperSection = () => {
                 key={i}
                 className="bg-white rounded-xl p-5 flex flex-col items-center text-center shadow-lg"
               >
-                <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-[#E8450A] mb-3">
+                <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-[#FF6B00] mb-3">
                   <img
                     src={topper.image}
                     alt={topper.name}
@@ -94,28 +94,28 @@ export const TopperSection = () => {
                   />
                 </div>
                 <p className="font-bold text-navy text-sm mb-0.5">{topper.name}</p>
-                <p className="text-[#E8450A] font-black text-lg">{topper.rank}</p>
+                <p className="text-[#FF6B00] font-black text-lg">{topper.rank}</p>
                 <p className="text-slate text-xs">{topper.exam}</p>
               </div>
             ))}
           </div>
 
-          {/* Right: Topper's Choice info */}
+          {/* Right: Student's Choice info */}
           <div className="bg-white rounded-xl p-8 shadow-lg">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-[#E8450A]/10 rounded-full flex items-center justify-center">
-                <Trophy size={24} className="text-[#E8450A]" />
+              <div className="w-12 h-12 bg-[#FF6B00]/10 rounded-full flex items-center justify-center">
+                <Trophy size={24} className="text-[#FF6B00]" />
               </div>
               <div>
                 <h3 className="font-bold text-navy text-lg">Student&apos;s Choice</h3>
-                <p className="text-slate text-sm">Why they chose RS Nursing Career Point</p>
+                <p className="text-slate text-sm">Why they chose Kautilya Study Circle</p>
               </div>
             </div>
 
             <div className="space-y-4">
               {[
                 { label: "Expert Faculty", pct: 95 },
-                { label: "Study Environment", pct: 98 },
+                { label: "Library Facility", pct: 98 },
                 { label: "Subject Coverage", pct: 92 },
                 { label: "Student Results", pct: 90 },
               ].map((item, i) => (
@@ -126,7 +126,7 @@ export const TopperSection = () => {
                   </div>
                   <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
                     <div
-                      className="h-full bg-[#E8450A] rounded-full"
+                      className="h-full bg-[#FF6B00] rounded-full"
                       style={{ width: `${item.pct}%` }}
                     />
                   </div>
@@ -136,9 +136,9 @@ export const TopperSection = () => {
 
             <div className="mt-6 pt-6 border-t border-gray-100 text-center">
               <p className="text-slate text-sm italic">
-                &quot;RS Nursing Career Point is the best nursing coaching in Gorakhpur. The faculty is exceptional and the exam preparation is thorough and complete.&quot;
+                &quot;Kautilya Study Circle is the best coaching in Gonda for all competitive exams. The faculty is exceptional and the exam preparation is thorough and complete.&quot;
               </p>
-              <p className="text-[#E8450A] font-semibold text-sm mt-2">— GNM Topper, 2024</p>
+              <p className="text-[#FF6B00] font-semibold text-sm mt-2">— SSC CGL Topper, 2024</p>
             </div>
           </div>
         </div>

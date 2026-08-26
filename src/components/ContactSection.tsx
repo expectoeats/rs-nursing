@@ -8,7 +8,7 @@ export const ContactSection = () => {
     <section id="contact" className="py-16 bg-[#F8F8F8]">
       <div className="section-container">
         <div className="text-center mb-12">
-          <p className="text-[#E8450A] font-semibold text-sm uppercase tracking-widest mb-2">
+          <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
             Reach Out
           </p>
           <h2 className="section-title-center mb-4">Get In Touch</h2>
@@ -22,35 +22,35 @@ export const ContactSection = () => {
           <div className="space-y-6">
             {/* Info cards */}
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex items-start gap-4">
-              <div className="w-12 h-12 bg-[#E8450A] rounded-full flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center shrink-0">
                 <MapPin size={22} className="text-white" />
               </div>
               <div>
                 <h4 className="font-bold text-navy mb-1">Our Location</h4>
                 <p className="text-slate text-sm leading-relaxed">
-                  Subhash Tractor Gali, near Bajaj Service Center<br />
-                  Dharamshala, Bashratpur, Gorakhpur, UP 273001
+                  Opposite Bandhan Bank, Bahraich Gonda Road<br />
+                  Near Roadways Bus Stand, Azad Nagar, Gonda, UP 271001
                 </p>
               </div>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex items-start gap-4">
-              <div className="w-12 h-12 bg-[#E8450A] rounded-full flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center shrink-0">
                 <Phone size={22} className="text-white" />
               </div>
               <div>
                 <h4 className="font-bold text-navy mb-1">Call Us</h4>
                 <a
-                  href="tel:+919672848848"
-                  className="text-[#E8450A] font-bold text-xl hover:underline"
+                  href="tel:+919532206171"
+                  className="text-[#FF6B00] font-bold text-xl hover:underline"
                 >
-                  096728 48848
+                  095322 06171
                 </a>
               </div>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 flex items-start gap-4">
-              <div className="w-12 h-12 bg-[#E8450A] rounded-full flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center shrink-0">
                 <Clock size={22} className="text-white" />
               </div>
               <div>
@@ -62,7 +62,7 @@ export const ContactSection = () => {
             {/* Map */}
             <div className="rounded-xl overflow-hidden border-2 border-gray-100 shadow-sm" style={{ height: "220px" }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.8!2d83.3732!3d26.7605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0000000%3A0x0!2zUlMgTnVyc2luZyBDYXJlZXIgUG9pbnQsIEdvcmFraHB1cg!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.0!2d81.9600!3d27.1333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399fdb4a00000001%3A0x0!2zS2F1dGlseWEgU3R1ZHkgQ2lyY2xlLCBHb25kYQ!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -86,7 +86,7 @@ export const ContactSection = () => {
                   <input
                     type="text"
                     placeholder="Enter your name"
-                    className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors"
+                    className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors"
                   />
                 </div>
                 <div>
@@ -96,7 +96,7 @@ export const ContactSection = () => {
                   <input
                     type="tel"
                     placeholder="Enter phone number"
-                    className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors"
+                    className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors"
                   />
                 </div>
               </div>
@@ -108,7 +108,7 @@ export const ContactSection = () => {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors"
+                  className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors"
                 />
               </div>
 
@@ -117,11 +117,11 @@ export const ContactSection = () => {
                   <label className="block text-xs font-bold uppercase tracking-widest text-slate mb-2">
                     Target Class
                   </label>
-                  <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors bg-white">
-                    <option>GNM Nursing</option>
-                    <option>ANM Nursing</option>
-                    <option>B.Sc Nursing</option>
-                    <option>Staff Nurse Exam</option>
+                  <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors bg-white">
+                    <option>SSC / CGL / CHSL</option>
+                    <option>Railway / NTPC / Group D</option>
+                    <option>UP Police / SI</option>
+                    <option>Bank PO / Clerk</option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -129,7 +129,7 @@ export const ContactSection = () => {
                   <label className="block text-xs font-bold uppercase tracking-widest text-slate mb-2">
                     Admission Type
                   </label>
-                  <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors bg-white">
+                  <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors bg-white">
                     <option>New Admission</option>
                     <option>Continuing Student</option>
                     <option>Transfer</option>
@@ -144,13 +144,13 @@ export const ContactSection = () => {
                 <textarea
                   rows={4}
                   placeholder="How can we help you?"
-                  className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#E8450A] transition-colors resize-none"
+                  className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors resize-none"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#E8450A] text-white font-bold py-3.5 rounded flex items-center justify-center gap-2 hover:bg-[#C73D09] transition-colors"
+                className="w-full bg-[#FF6B00] text-white font-bold py-3.5 rounded flex items-center justify-center gap-2 hover:bg-[#E25900] transition-colors"
               >
                 <Send size={18} /> Submit Inquiry
               </button>
@@ -158,10 +158,10 @@ export const ContactSection = () => {
               <div className="text-center pt-2 border-t border-gray-100">
                 <p className="text-slate text-xs mb-1">Or call directly:</p>
                 <a
-                  href="tel:+919672848848"
-                  className="text-navy font-bold text-lg hover:text-[#E8450A] transition-colors"
+                  href="tel:+919532206171"
+                  className="text-navy font-bold text-lg hover:text-[#FF6B00] transition-colors"
                 >
-                  096728 48848
+                  095322 06171
                 </a>
               </div>
             </form>

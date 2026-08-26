@@ -1,54 +1,54 @@
 "use client";
 
 import React from "react";
-import { ArrowRight, Clock, Users, BookOpen } from "lucide-react";
+import { ArrowRight, Clock, Users, FileText, Train, Shield, Landmark } from "lucide-react";
 
 const courses = [
   {
     id: 1,
-    title: "GNM Nursing",
-    subtitle: "General Nursing & Midwifery",
-    icon: "🏥",
+    title: "SSC / CGL / CHSL",
+    subtitle: "Staff Selection Commission",
+    icon: FileText,
     duration: "Full Preparation",
     students: "100+",
     description:
-      "Complete coaching for GNM entrance & academic exams. Covers Anatomy, Physiology, Nursing Fundamentals, Community Health, and Midwifery.",
-    color: "#E8450A",
+      "Complete coaching for SSC CGL, CHSL, MTS & GD. Covers Reasoning, Maths, English, GK with previous year papers and mock tests.",
+    color: "#FF6B00",
     badge: "Most Popular",
   },
   {
     id: 2,
-    title: "ANM Nursing",
-    subtitle: "Auxiliary Nursing & Midwifery",
-    icon: "💉",
+    title: "Railway / NTPC / Group D",
+    subtitle: "RRB Exam Preparation",
+    icon: Train,
     duration: "Full Preparation",
     students: "120+",
     description:
-      "Focused coaching for ANM entrance exams and course completion. Covers Primary Health Care, Nutrition, Child Health, and Community Nursing.",
+      "Focused coaching for RRB NTPC, Group D, ALP & RPF exams. Covers CBT 1 & 2 with topic-wise practice and previous papers.",
     color: "#1a1a2e",
     badge: "New Batch",
   },
   {
     id: 3,
-    title: "B.Sc Nursing",
-    subtitle: "Bachelor of Science in Nursing",
-    icon: "🎓",
+    title: "UP Police / SI",
+    subtitle: "UP Police Bharti Exams",
+    icon: Shield,
     duration: "Full Preparation",
     students: "150+",
     description:
-      "In-depth preparation for B.Sc Nursing entrance exams and academics. Covers all core subjects with exam strategy, mock tests, and revision.",
-    color: "#E8450A",
+      "In-depth preparation for UP Police Constable, Sub-Inspector, and other UP Police exams with current affairs and physical preparation tips.",
+    color: "#FF6B00",
     badge: "Top Results",
   },
   {
     id: 4,
-    title: "Staff Nurse Exam",
-    subtitle: "Govt. & Competitive Exams",
-    icon: "📋",
+    title: "Bank PO / Clerk",
+    subtitle: "IBPS / SBI Exams",
+    icon: Landmark,
     duration: "Ongoing Batches",
     students: "200+",
     description:
-      "Special coaching for AIIMS, ESIC, Railway, NHM, and UP Staff Nurse competitive exams. Topic-wise practice, previous papers, and mock tests.",
+      "Special coaching for IBPS PO, Clerk, SBI PO, RBI, and other bank exams. Covers Quant, Reasoning, English, Banking Awareness & mock tests.",
     color: "#1a1a2e",
     badge: "High Demand",
   },
@@ -60,13 +60,13 @@ export const CoursesSection = () => {
       <div className="section-container">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-[#E8450A] font-semibold text-sm uppercase tracking-widest mb-2">
+          <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
             What We Offer
           </p>
           <h2 className="section-title-center mb-4">All Courses</h2>
           <p className="text-slate max-w-xl mx-auto text-base mt-4">
-            Choose the right program for your nursing career. Expert-designed
-            courses for GNM, ANM, B.Sc Nursing, and Staff Nurse competitive exams.
+            Choose the right program for your career goal. Expert-designed
+            courses for SSC, Railway, UP Police, Bank and other government competitive exams.
           </p>
         </div>
 
@@ -92,13 +92,13 @@ export const CoursesSection = () => {
                   >
                     {course.badge}
                   </span>
-                  <span className="text-3xl">{course.icon}</span>
+                  <course.icon size={30} color={course.color} />
                 </div>
 
-                <h3 className="text-lg font-bold text-navy mb-1 group-hover:text-[#E8450A] transition-colors">
+                <h3 className="text-lg font-bold text-navy mb-1 group-hover:text-[#FF6B00] transition-colors">
                   {course.title}
                 </h3>
-                <p className="text-[#E8450A] text-sm font-semibold mb-3">
+                <p className="text-[#FF6B00] text-sm font-semibold mb-3">
                   {course.subtitle}
                 </p>
                 <p className="text-slate text-sm leading-relaxed mb-4 flex-1">
@@ -117,7 +117,7 @@ export const CoursesSection = () => {
 
                 <a
                   href="#contact"
-                  className="flex items-center gap-2 text-[#E8450A] font-semibold text-sm hover:gap-3 transition-all"
+                  className="flex items-center gap-2 text-[#FF6B00] font-semibold text-sm hover:gap-3 transition-all"
                 >
                   Know More <ArrowRight size={15} />
                 </a>
@@ -129,11 +129,11 @@ export const CoursesSection = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-10">
           <p className="text-slate text-sm mb-4">
-            Not sure which nursing program is right for you?
+            Not sure which program is right for you?
           </p>
           <a
             href="#contact"
-            className="inline-block bg-[#E8450A] text-white font-semibold px-8 py-3 rounded hover:bg-[#C73D09] transition-colors"
+            className="inline-block bg-[#FF6B00] text-white font-semibold px-8 py-3 rounded hover:bg-[#E25900] transition-colors"
           >
             Get Free Counseling
           </a>

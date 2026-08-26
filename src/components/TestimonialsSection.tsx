@@ -5,76 +5,76 @@ import { Star, Play, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Priya Tiwari",
-    role: "GNM Student",
-    text: "RS Nursing Career Point has transformed my preparation. The faculty explains Anatomy and Physiology with such clarity that even complex topics feel easy. Highly recommend to all nursing aspirants in Gorakhpur!",
-    stars: 5,
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
-    hasVideo: true,
-  },
-  {
-    name: "Anjali Verma",
-    role: "ANM Student",
-    text: "The best nursing coaching in Gorakhpur. The teachers are very supportive and the study material is excellent. I cleared my ANM entrance exam on the first attempt thanks to RS Nursing Career Point.",
-    stars: 5,
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
-    hasVideo: false,
-  },
-  {
-    name: "Rahul Gupta",
-    role: "Staff Nurse Exam Aspirant",
-    text: "RS Nursing Career Point is excellent for Staff Nurse exam preparation. The topic-wise coverage, previous year papers, and mock tests gave me the edge I needed. Qualified AIIMS Staff Nurse exam!",
+    name: "Rohit Kumar",
+    role: "SSC CGL Aspirant",
+    text: "Best coaching in Gonda for all competitive exams. The faculty here is exceptional and the study environment is truly motivating. Kautilya Study Circle helped me clear my SSC CGL exam with a top score!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
     hasVideo: true,
   },
   {
-    name: "Suman Yadav",
-    role: "B.Sc Nursing Student",
-    text: "If you are serious about nursing in Gorakhpur, RS Nursing Career Point is the only place you need. Faculty is dedicated, environment is positive, and the results speak for themselves.",
+    name: "Priya Singh",
+    role: "Railway NTPC Aspirant",
+    text: "Best institute for competitive examinations preparation and also the facility of library makes it a one stop solution for every aspirant. I cleared my Railway NTPC exam in first attempt!",
     stars: 5,
     image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
     hasVideo: false,
   },
   {
-    name: "Vikram Singh",
-    role: "GNM Student",
-    text: "Best teaching provided here. The regular tests and subject-wise coverage helped me stay ahead in my GNM academics. Truly a career-changing institute.",
+    name: "Amit Yadav",
+    role: "UP Police SI Aspirant",
+    text: "Best coaching in Gonda for all competitive exams. The teaching methodology, mock tests and personal attention from faculty helped me crack the UP Police SI exam. Highly recommended!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
+    hasVideo: true,
+  },
+  {
+    name: "Anita Verma",
+    role: "Bank PO Aspirant",
+    text: "The library facility at Kautilya Study Circle is outstanding. Having access to newspapers, reference books and study materials makes it truly a one-stop solution for every aspirant in Gonda.",
+    stars: 5,
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
+    hasVideo: false,
+  },
+  {
+    name: "Vijay Mishra",
+    role: "SSC CHSL Aspirant",
+    text: "Kautilya Study Circle is the best competitive exam institute in Gonda. The dedicated faculty, regular mock tests, and supportive environment gave me the edge to succeed. Cleared SSC CHSL!",
+    stars: 5,
+    image:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",
     hasVideo: true,
   },
 ];
 
 const videoTestimonials = [
   {
-    name: "Priya T.",
+    name: "Rohit K.",
     thumbnail:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=400&auto=format&fit=crop",
-    label: "GNM Topper | 2024",
+    label: "SSC CGL Cleared | 2024",
   },
   {
-    name: "Anjali V.",
+    name: "Priya S.",
     thumbnail:
       "https://images.unsplash.com/photo-1523240715630-975bb5732dc1?q=80&w=400&auto=format&fit=crop",
-    label: "ANM Entrance Cleared | 2024",
+    label: "Railway NTPC Cleared | 2024",
   },
   {
-    name: "Suman Y.",
+    name: "Amit Y.",
     thumbnail:
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=400&auto=format&fit=crop",
-    label: "AIIMS Staff Nurse | 2024",
+    label: "UP Police SI Selected | 2024",
   },
   {
-    name: "Rahul G.",
+    name: "Anita V.",
     thumbnail:
       "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=400&auto=format&fit=crop",
-    label: "UP NHM Qualified | 2024",
+    label: "Bank PO Qualified | 2024",
   },
 ];
 
@@ -94,7 +94,7 @@ export const TestimonialsSection = () => {
       <div className="section-container">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-[#E8450A] font-semibold text-sm uppercase tracking-widest mb-2">
+          <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
             Student Stories
           </p>
           <h2 className="section-title-center mb-4">Hear From Our Toppers</h2>
@@ -116,7 +116,7 @@ export const TestimonialsSection = () => {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors" />
               {/* Play button */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-12 h-12 bg-[#E8450A] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                   <Play size={18} className="text-white fill-white ml-1" />
                 </div>
               </div>
@@ -136,13 +136,13 @@ export const TestimonialsSection = () => {
             <div className="flex gap-2">
               <button
                 onClick={prev}
-                className="w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center hover:border-[#E8450A] hover:text-[#E8450A] transition-colors"
+                className="w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center hover:border-[#FF6B00] hover:text-[#FF6B00] transition-colors"
               >
                 <ChevronLeft size={20} />
               </button>
               <button
                 onClick={next}
-                className="w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center hover:border-[#E8450A] hover:text-[#E8450A] transition-colors"
+                className="w-10 h-10 rounded-full border-2 border-gray-200 flex items-center justify-center hover:border-[#FF6B00] hover:text-[#FF6B00] transition-colors"
               >
                 <ChevronRight size={20} />
               </button>
@@ -157,7 +157,7 @@ export const TestimonialsSection = () => {
               >
                 <Quote
                   size={36}
-                  className="text-[#E8450A]/15 absolute top-5 right-5"
+                  className="text-[#FF6B00]/15 absolute top-5 right-5"
                   fill="currentColor"
                 />
                 {/* Stars */}
@@ -166,7 +166,7 @@ export const TestimonialsSection = () => {
                     <Star
                       key={s}
                       size={14}
-                      className="text-[#E8450A] fill-[#E8450A]"
+                      className="text-[#FF6B00] fill-[#FF6B00]"
                     />
                   ))}
                 </div>
@@ -184,8 +184,8 @@ export const TestimonialsSection = () => {
                     <p className="text-muted text-xs">{review.role}</p>
                   </div>
                   {review.hasVideo && (
-                    <div className="ml-auto w-8 h-8 bg-[#E8450A]/10 rounded-full flex items-center justify-center">
-                      <Play size={12} className="text-[#E8450A] fill-[#E8450A] ml-0.5" />
+                    <div className="ml-auto w-8 h-8 bg-[#FF6B00]/10 rounded-full flex items-center justify-center">
+                      <Play size={12} className="text-[#FF6B00] fill-[#FF6B00] ml-0.5" />
                     </div>
                   )}
                 </div>
@@ -200,7 +200,7 @@ export const TestimonialsSection = () => {
                 key={i}
                 onClick={() => setCurrent(i)}
                 className={`h-2 rounded-full transition-all ${
-                  i === current ? "w-6 bg-[#E8450A]" : "w-2 bg-gray-300"
+                  i === current ? "w-6 bg-[#FF6B00]" : "w-2 bg-gray-300"
                 }`}
               />
             ))}

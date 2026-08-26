@@ -5,7 +5,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    image: "https://lwfiles.mycourse.app/globalsurgery-public/b3bb72294ffed9f0ee9e1c9c26011e6e.png",
+    // image: "https://lwfiles.mycourse.app/globalsurgery-public/b3bb72294ffed9f0ee9e1c9c26011e6e.png",
+    image: "/hero-banner.png",
   },
 ];
 

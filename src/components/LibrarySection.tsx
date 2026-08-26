@@ -6,33 +6,33 @@ import { Newspaper, Book, Clock, Wifi, Wind, Volume2 } from "lucide-react";
 const features = [
   {
     icon: <Newspaper size={26} />,
-    title: "Study Materials Provided",
-    description: "Well-structured notes and worksheets for all subjects across every class.",
+    title: "Daily Newspapers",
+    description: "Daily newspapers for current affairs preparation — keeping every aspirant updated with national and world events.",
   },
   {
     icon: <Book size={26} />,
     title: "Reference Books",
-    description: "Standard NCERT and supplementary books for Science, Maths, and Social Science.",
+    description: "Standard reference books for Reasoning, Maths, English, GK, and exam-specific subjects for all competitive exams.",
   },
   {
     icon: <Clock size={26} />,
     title: "Regular Class Schedule",
-    description: "Consistent daily classes to keep students on track throughout the academic year.",
+    description: "Consistent daily classes to keep aspirants on track throughout their competitive exam preparation.",
   },
   {
     icon: <Wifi size={26} />,
-    title: "YouTube Channel",
-    description: "Educational videos available on @Theraysclasses for learning anytime, anywhere.",
+    title: "Study Materials",
+    description: "Well-structured notes and practice sets for all subjects covering every competitive exam syllabus.",
   },
   {
     icon: <Wind size={26} />,
-    title: "Comfortable Classrooms",
-    description: "Well-ventilated and spacious classrooms for comfortable all-day learning.",
+    title: "Comfortable Reading Room",
+    description: "Well-ventilated and spacious library room for comfortable all-day self-study sessions.",
   },
   {
     icon: <Volume2 size={26} />,
     title: "Focused Environment",
-    description: "Disciplined and distraction-free environment to maximize student focus.",
+    description: "Disciplined and distraction-free environment to maximize aspirant focus and productivity.",
   },
 ];
 
@@ -43,20 +43,20 @@ export const LibrarySection = () => {
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Left: Content */}
           <div>
-            <p className="text-[#E8450A] font-semibold text-sm uppercase tracking-widest mb-2">
+            <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
               Study Facility
             </p>
-            <h2 className="section-title mb-6">Our Classroom & Resources</h2>
+            <h2 className="section-title mb-6">Our Library & Resources</h2>
             <p className="text-slate text-base leading-relaxed mb-8">
-              The Ray&apos;s Classes provides a well-equipped and comfortable learning
-              environment for students from Class 1 to 10th. Everything a student needs
-              to excel — all in one place in Mau, UP.
+              Kautilya Study Circle provides a well-equipped library and comfortable learning
+              environment for competitive exam aspirants. Everything a student needs
+              to excel — all in one place in Gonda, UP.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
               {features.map((f, i) => (
                 <div key={i} className="flex items-start gap-4">
-                  <div className="w-11 h-11 bg-[#E8450A]/10 rounded-lg flex items-center justify-center text-[#E8450A] shrink-0">
+                  <div className="w-11 h-11 bg-[#FF6B00]/10 rounded-lg flex items-center justify-center text-[#FF6B00] shrink-0">
                     {f.icon}
                   </div>
                   <div>
@@ -70,15 +70,15 @@ export const LibrarySection = () => {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#contact"
-                className="bg-[#E8450A] text-white font-semibold px-7 py-3 rounded hover:bg-[#C73D09] transition-colors"
+                className="bg-[#FF6B00] text-white font-semibold px-7 py-3 rounded hover:bg-[#E25900] transition-colors"
               >
                 Enroll Now
               </a>
               <a
-                href="tel:+918318002548"
-                className="border-2 border-[#E8450A] text-[#E8450A] font-semibold px-7 py-3 rounded hover:bg-[#E8450A] hover:text-white transition-colors"
+                href="tel:+919532206171"
+                className="border-2 border-[#FF6B00] text-[#FF6B00] font-semibold px-7 py-3 rounded hover:bg-[#FF6B00] hover:text-white transition-colors"
               >
-                Call: 083180 02548
+                Call: 095322 06171
               </a>
             </div>
           </div>
@@ -110,9 +110,9 @@ export const LibrarySection = () => {
             </div>
 
             {/* Floating stat */}
-            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-[#E8450A] text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3 whitespace-nowrap">
+            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-[#FF6B00] text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3 whitespace-nowrap">
               <Clock size={18} />
-              <span className="font-bold text-sm">Classes Every Day · Mau, UP</span>
+              <span className="font-bold text-sm">Open 24 Hours · Gonda, UP</span>
             </div>
           </div>
         </div>

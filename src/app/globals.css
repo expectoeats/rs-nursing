@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #E8450A;
-  --color-primary-dark: #C73D09;
-  --color-primary-light: #FF5722;
+  --color-primary: #FF6B00;
+  --color-primary-dark: #E25900;
+  --color-primary-light: #FF8A3D;
   --color-navy: #1a1a2e;
   --color-darkbg: #111111;
   --color-offwhite: #F5F5F5;
   --color-ivory: #FFFFFF;
   --color-slate: #555555;
   --color-muted: #888888;
-  --color-gold: #E8450A;
-  --color-lightgold: #FF7043;
-  --color-accent: #E8450A;
+  --color-gold: #FF6B00;
+  --color-lightgold: #FF8A3D;
+  --color-accent: #FF6B00;
   --color-deepnavy: #1a1a2e;
   --color-success: #2D6A4F;
 
@@ -20,8 +20,8 @@
   --font-body: var(--font-body);
   --font-label: var(--font-label);
 
-  --shadow-orange-sm: 0 2px 8px rgba(232, 69, 10, 0.25);
-  --shadow-orange-md: 0 4px 20px rgba(232, 69, 10, 0.35);
+  --shadow-orange-sm: 0 2px 8px rgba(255, 107, 0, 0.25);
+  --shadow-orange-md: 0 4px 20px rgba(255, 107, 0, 0.35);
   --shadow-navy-lg: 0 8px 40px rgba(0, 0, 0, 0.3);
 
   --animate-marquee: marquee 30s linear infinite;

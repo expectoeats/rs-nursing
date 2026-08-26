@@ -15,11 +15,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "RS Nursing  Mau UP",
+  title: "Kautilya Study Circle | Best Competitive Exam Coaching Gonda UP",
   description:
-    "RS Nursing  — Mau's #1 coaching center. Expert faculty, dedicated library, 4.5 ⭐ rated. ",
+    "Kautilya Study Circle — Gonda's #1 coaching center for SSC, Railway, UP Police, Bank exams. Expert faculty, complete library facility, 4.9 ⭐ rated. Opposite Bandhan Bank, Azad Nagar, Gonda.",
   keywords:
-    " coaching Mau, coaching mau UP, PCS coaching mau, Takshashila IAS, UPSC library mau, best coaching mau",
+    "competitive exam coaching Gonda, SSC coaching Gonda, Railway coaching Gonda UP, UP Police coaching Gonda, Bank exam coaching Gonda, Kautilya Study Circle, best coaching Gonda UP",
 };
 
 export default function RootLayout({
