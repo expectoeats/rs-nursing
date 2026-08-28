@@ -20,14 +20,14 @@ export const FacultySection = () => {
             <div className="relative rounded-xl overflow-hidden shadow-xl" style={{ height: "480px" }}>
               <img
                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=600&auto=format&fit=crop"
-                alt="Director - Kautilya Study Circle"
+                alt="Director - Rama Coaching Center And Computer Education Center"
                 className="w-full h-full object-cover object-top"
               />
               {/* Orange gradient overlay at bottom */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#FF6B00] to-transparent h-32" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="font-bold text-xl">Kautilya Study Circle</h3>
-                <p className="text-white/80 text-sm">Founder & Director, Kautilya Study Circle</p>
+                <h3 className="font-bold text-xl">Rama Coaching Center</h3>
+                <p className="text-white/80 text-sm">Founder & Director, Rama Coaching Center And Computer Education Center</p>
               </div>
             </div>
 
@@ -44,7 +44,7 @@ export const FacultySection = () => {
             <h2 className="section-title mb-6">Expert & Dedicated Faculty</h2>
 
             <p className="text-slate text-base leading-relaxed mb-4">
-              At <strong className="text-navy">Kautilya Study Circle</strong>, our faculty is passionate about making competitive exam education accessible and empowering for every student aiming for SSC, Railway, UP Police, Bank exams and more.
+              At <strong className="text-navy">Rama Coaching Center And Computer Education Center</strong>, our faculty is passionate about making competitive exam and computer education accessible and empowering for every student aiming for SSC, Railway, UP Police, Bank exams and more.
             </p>
             <p className="text-slate text-base leading-relaxed mb-4">
               Our teaching methodology focuses on simplifying complex topics using smart shortcuts, real exam patterns, and previous year paper analysis — making even the most difficult subjects easy to understand and remember.

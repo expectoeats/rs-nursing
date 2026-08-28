@@ -48,9 +48,9 @@ export const LibrarySection = () => {
             </p>
             <h2 className="section-title mb-6">Our Library & Resources</h2>
             <p className="text-slate text-base leading-relaxed mb-8">
-              Kautilya Study Circle provides a well-equipped library and comfortable learning
+              Rama Coaching Center And Computer Education Center provides a well-equipped library and comfortable learning
               environment for competitive exam aspirants. Everything a student needs
-              to excel — all in one place in Gonda, UP.
+              to excel — all in one place in Fatehpur, UP.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
@@ -75,10 +75,10 @@ export const LibrarySection = () => {
                 Enroll Now
               </a>
               <a
-                href="tel:+919532206171"
+                href="tel:+918299121689"
                 className="border-2 border-[#FF6B00] text-[#FF6B00] font-semibold px-7 py-3 rounded hover:bg-[#FF6B00] hover:text-white transition-colors"
               >
-                Call: 095322 06171
+                Call: 082991 21689
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@ export const LibrarySection = () => {
             {/* Floating stat */}
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-[#FF6B00] text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3 whitespace-nowrap">
               <Clock size={18} />
-              <span className="font-bold text-sm">Open 24 Hours · Gonda, UP</span>
+              <span className="font-bold text-sm">Open Daily till 8 PM · Fatehpur, UP</span>
             </div>
           </div>
         </div>

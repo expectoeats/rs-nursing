@@ -10,9 +10,10 @@ const items = [
   "Current Affairs & GK",
   "Reasoning & Maths",
   "UPSSSC / Lekhpal",
-  "Kautilya Study Circle",
-  "Gonda, UP",
-  "Gonda's Top Competitive Coaching",
+  "Computer Education",
+  "Rama Coaching Center And Computer Education Center",
+  "Fatehpur, UP",
+  "Fatehpur's Top Competitive Coaching",
 ];
 
 export const MarqueeTicker = () => {

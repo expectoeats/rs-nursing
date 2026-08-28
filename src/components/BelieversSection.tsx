@@ -52,7 +52,7 @@ export const BelieversSection = () => {
           </p>
           <h2 className="section-title-center mb-4">Meet Our Believers</h2>
           <p className="text-slate max-w-xl mx-auto text-sm mt-4">
-            Hundreds of aspirants from Gonda trust Kautilya Study Circle for their competitive exam journey. Here are some of our proud students.
+            Hundreds of aspirants from Fatehpur trust Rama Coaching Center And Computer Education Center for their competitive exam journey. Here are some of our proud students.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export const BelieversSection = () => {
         {/* Bottom message */}
         <div className="text-center mt-10">
           <p className="text-slate text-sm">
-            Join <span className="text-[#FF6B00] font-bold">500+ aspirants</span> who trust Kautilya Study Circle for their competitive exam preparation.
+            Join <span className="text-[#FF6B00] font-bold">500+ aspirants</span> who trust Rama Coaching Center for their competitive exam preparation.
           </p>
           <a
             href="#contact"

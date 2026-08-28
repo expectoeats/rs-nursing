@@ -41,8 +41,8 @@ const features = [
   },
   {
     icon: <Wifi size={28} />,
-    title: "Open 24 Hours",
-    description: "Always accessible — open 24 hours a day, 7 days a week. Call: 095322 06171.",
+    title: "Open Daily till 8 PM",
+    description: "Open every day for classes and library — doors close at 8 PM. Call: 082991 21689.",
   },
 ];
 
@@ -57,8 +57,8 @@ export const WhyTakshashila = () => {
           </p>
           <h2 className="section-title-center mb-4">Why Choose Us</h2>
           <p className="text-slate max-w-xl mx-auto text-sm mt-4">
-            Kautilya Study Circle offers everything you need to excel in competitive exams —
-            quality teaching, library facility, personal attention, and a supportive community in Gonda.
+            Rama Coaching Center And Computer Education Center offers everything you need to excel in competitive exams —
+            quality teaching, computer education, library facility, personal attention, and a supportive community in Fatehpur.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export const WhyTakshashila = () => {
           <div className="text-white text-center md:text-left">
             <h3 className="text-2xl font-bold mb-1">Ready to Start Your Government Career?</h3>
             <p className="text-white/80 text-sm">
-              Join Gonda&apos;s most trusted competitive exam coaching. Admissions open — limited seats.
+              Join Fatehpur&apos;s most trusted competitive exam coaching. Admissions open — limited seats.
             </p>
           </div>
           <div className="flex gap-4 shrink-0">
@@ -94,7 +94,7 @@ export const WhyTakshashila = () => {
               Admission Open
             </a>
             <a
-              href="tel:+919532206171"
+              href="tel:+918299121689"
               className="border-2 border-white text-white font-bold px-7 py-3 rounded hover:bg-white hover:text-[#FF6B00] transition-colors"
             >
               Call Us

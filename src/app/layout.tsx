@@ -15,11 +15,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kautilya Study Circle | Best Competitive Exam Coaching Gonda UP",
+  title: "Rama Coaching Center And Computer Education Center | Best Coaching & Computer Education Fatehpur UP",
   description:
-    "Kautilya Study Circle — Gonda's #1 coaching center for SSC, Railway, UP Police, Bank exams. Expert faculty, complete library facility, 4.9 ⭐ rated. Opposite Bandhan Bank, Azad Nagar, Gonda.",
+    "Rama Coaching Center And Computer Education Center — Fatehpur's trusted coaching for SSC, Railway, UP Police, Bank exams & computer education. Expert faculty, complete library facility, 4.9 ⭐ rated. UPHC, Andauli Puliya, Ghazipur Rd, Radha Nagar, Harihar Ganj, Fatehpur. Visit ramaedu.co.in",
   keywords:
-    "competitive exam coaching Gonda, SSC coaching Gonda, Railway coaching Gonda UP, UP Police coaching Gonda, Bank exam coaching Gonda, Kautilya Study Circle, best coaching Gonda UP",
+    "competitive exam coaching Fatehpur, computer education Fatehpur, SSC coaching Fatehpur, Railway coaching Fatehpur UP, UP Police coaching Fatehpur, Bank exam coaching Fatehpur, Rama Coaching Center, best coaching Fatehpur UP, ramaedu.co.in",
 };
 
 export default function RootLayout({
