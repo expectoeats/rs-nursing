@@ -36,9 +36,9 @@ export const Navbar = () => {
         <div className="section-container flex items-center justify-between">
           <span className="flex items-center gap-2">
             <Phone size={13} />
-            Call Us: 095322 06171
+            Call Us: 082991 21689
           </span>
-          <span>Kautilya Study Circle | Azad Nagar, Gonda, Uttar Pradesh</span>
+          <span>Rama Coaching Center And Computer Education Center | Radha Nagar, Fatehpur, Uttar Pradesh</span>
         </div>
       </div>
 
@@ -52,14 +52,14 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center text-white font-bold text-xl">
-              KS
+              RC
             </div>
             <div>
               <div className="font-bold text-navy text-lg leading-tight">
-                Kautilya Study Circle
+                Rama Coaching Center
               </div>
               <div className="text-[11px] text-[#FF6B00] font-semibold uppercase tracking-wide">
-                Competitive Excellence · Gonda, UP
+                Coaching & Computer Education · Fatehpur, UP
               </div>
             </div>
           </Link>

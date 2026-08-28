@@ -16,19 +16,19 @@ export const Footer = () => {
           <div className="space-y-5">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center text-white font-black text-xl shrink-0">
-                KS
+                RC
               </div>
               <div>
                 <div className="font-bold text-white text-lg leading-tight">
-                  Kautilya Study Circle
+                  Rama Coaching Center
                 </div>
                 <div className="text-[#FF6B00] text-xs font-semibold">
-                  Competitive Excellence · Gonda, UP
+                  Coaching & Computer Education · Fatehpur, UP
                 </div>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
-              Gonda&apos;s trusted coaching for all competitive exams — SSC, Railway, UP Police, Bank & more. Dedicated to producing top government professionals with complete library facility.
+              Fatehpur&apos;s trusted coaching for all competitive exams — SSC, Railway, UP Police, Bank & more — along with complete computer education. Dedicated to producing top government professionals with complete library facility.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -95,6 +95,7 @@ export const Footer = () => {
                 "UP Police / SI",
                 "Bank PO / Clerk",
                 "UPSSSC / Lekhpal",
+                "Computer Education (CCC / O Level)",
                 "Current Affairs & GK",
               ].map((item) => (
                 <li key={item}>
@@ -122,28 +123,31 @@ export const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="text-[#FF6B00] shrink-0 mt-0.5" size={18} />
                 <span className="text-white/50 text-sm leading-relaxed">
-                  Opposite Bandhan Bank, Bahraich Gonda Road<br />
-                  Near Roadways Bus Stand, Azad Nagar, Gonda, UP 271001
+                  यूपीएचसी, Andauli Puliya, UPHC, Ghazipur Rd<br />
+                  Radha Nagar, Harihar Ganj, Fatehpur, UP 212601
                 </span>
               </li>
               <li className="flex gap-3">
                 <Phone className="text-[#FF6B00] shrink-0" size={18} />
                 <a
-                  href="tel:+919532206171"
+                  href="tel:+918299121689"
                   className="text-white/50 text-sm hover:text-white transition-colors"
                 >
-                  095322 06171
+                  082991 21689
                 </a>
               </li>
               <li className="flex gap-3">
                 <Mail className="text-[#FF6B00] shrink-0" size={18} />
-                <span className="text-white/50 text-sm">
-                  Kautilya Study Circle, Gonda
-                </span>
+                <a
+                  href="https://ramaedu.co.in"
+                  className="text-white/50 text-sm hover:text-white transition-colors"
+                >
+                  ramaedu.co.in
+                </a>
               </li>
               <li className="flex gap-3">
                 <Clock className="text-[#FF6B00] shrink-0" size={18} />
-                <span className="text-white/50 text-sm">Open 24 Hours</span>
+                <span className="text-white/50 text-sm">Open Daily · Closes 8 PM</span>
               </li>
             </ul>
           </div>
@@ -152,7 +156,7 @@ export const Footer = () => {
         {/* Map strip */}
         <div className="rounded-xl overflow-hidden mb-10 border border-white/10" style={{ height: "200px" }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.0!2d81.9600!3d27.1333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399fdb4a00000001%3A0x0!2zS2F1dGlseWEgU3R1ZHkgQ2lyY2xlLCBHb25kYQ!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps?q=Rama+Coaching+Center+And+Computer+Education+Center,+Andauli+Puliya,+UPHC,+Ghazipur+Rd,+Radha+Nagar,+Harihar+Ganj,+Fatehpur,+Uttar+Pradesh+212601&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -164,8 +168,8 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-white/30 text-xs">
-          <p>© 2024 Kautilya Study Circle. All Rights Reserved.</p>
-          <p>Azad Nagar, Gonda, Uttar Pradesh</p>
+          <p>© 2024 Rama Coaching Center And Computer Education Center. All Rights Reserved.</p>
+          <p>Radha Nagar, Harihar Ganj, Fatehpur, Uttar Pradesh</p>
           <div className="flex gap-5">
             <Link href="#" className="hover:text-[#FF6B00] transition-colors">
               Privacy Policy

@@ -24,14 +24,14 @@ export const reviews: Review[] = [
   {
     id: "3",
     name: "Rahul Kumar",
-    text: "Library is good for studies. UPSC/IAS-PCS classes are very good and staff behaviour is better than other coaching institutes in Ballia.",
+    text: "Library is good for studies. Classes are very good and staff behaviour is better than other coaching institutes in Fatehpur.",
     stars: 5,
     time: "2 years ago",
   },
   {
     id: "4",
     name: "Google Reviewer",
-    text: "If there is a true UPSC environment in Ballia, you will only find it at Takshashila.",
+    text: "If there is a true study environment in Fatehpur, you will only find it at Rama Coaching Center.",
     stars: 5,
     time: "Recent",
   },

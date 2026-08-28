@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Rohit Kumar",
     role: "SSC CGL Aspirant",
-    text: "Best coaching in Gonda for all competitive exams. The faculty here is exceptional and the study environment is truly motivating. Kautilya Study Circle helped me clear my SSC CGL exam with a top score!",
+    text: "Best coaching in Fatehpur for all competitive exams. The faculty here is exceptional and the study environment is truly motivating. Rama Coaching Center helped me clear my SSC CGL exam with a top score!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: "Amit Yadav",
     role: "UP Police SI Aspirant",
-    text: "Best coaching in Gonda for all competitive exams. The teaching methodology, mock tests and personal attention from faculty helped me crack the UP Police SI exam. Highly recommended!",
+    text: "Best coaching in Fatehpur for all competitive exams. The teaching methodology, mock tests and personal attention from faculty helped me crack the UP Police SI exam. Highly recommended!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -34,7 +34,7 @@ const testimonials = [
   {
     name: "Anita Verma",
     role: "Bank PO Aspirant",
-    text: "The library facility at Kautilya Study Circle is outstanding. Having access to newspapers, reference books and study materials makes it truly a one-stop solution for every aspirant in Gonda.",
+    text: "The library facility at Rama Coaching Center is outstanding. Having access to newspapers, reference books and study materials makes it truly a one-stop solution for every aspirant in Fatehpur.",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -43,7 +43,7 @@ const testimonials = [
   {
     name: "Vijay Mishra",
     role: "SSC CHSL Aspirant",
-    text: "Kautilya Study Circle is the best competitive exam institute in Gonda. The dedicated faculty, regular mock tests, and supportive environment gave me the edge to succeed. Cleared SSC CHSL!",
+    text: "Rama Coaching Center And Computer Education Center is the best competitive exam institute in Fatehpur. The dedicated faculty, regular mock tests, and supportive environment gave me the edge to succeed. Cleared SSC CHSL!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",

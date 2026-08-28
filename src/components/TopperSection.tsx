@@ -108,7 +108,7 @@ export const TopperSection = () => {
               </div>
               <div>
                 <h3 className="font-bold text-navy text-lg">Student&apos;s Choice</h3>
-                <p className="text-slate text-sm">Why they chose Kautilya Study Circle</p>
+                <p className="text-slate text-sm">Why they chose Rama Coaching Center</p>
               </div>
             </div>
 
@@ -136,7 +136,7 @@ export const TopperSection = () => {
 
             <div className="mt-6 pt-6 border-t border-gray-100 text-center">
               <p className="text-slate text-sm italic">
-                &quot;Kautilya Study Circle is the best coaching in Gonda for all competitive exams. The faculty is exceptional and the exam preparation is thorough and complete.&quot;
+                &quot;Rama Coaching Center And Computer Education Center is the best coaching in Fatehpur for all competitive exams. The faculty is exceptional and the exam preparation is thorough and complete.&quot;
               </p>
               <p className="text-[#FF6B00] font-semibold text-sm mt-2">— SSC CGL Topper, 2024</p>
             </div>
