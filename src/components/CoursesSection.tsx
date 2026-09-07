@@ -1,54 +1,54 @@
 "use client";
 
 import React from "react";
-import { ArrowRight, Clock, Users, FileText, Train, Shield, Landmark } from "lucide-react";
+import { ArrowRight, Clock, Users } from "lucide-react";
 
 const courses = [
   {
     id: 1,
-    title: "SSC / CGL / CHSL",
-    subtitle: "Staff Selection Commission",
-    icon: FileText,
-    duration: "Full Preparation",
+    title: "Class 1st – 10th",
+    subtitle: "All Subjects · CBSE, ICSE, U.P. Board",
+    image: "/class-1-10.png",
+    duration: "Full Session",
     students: "100+",
     description:
-      "Complete coaching for SSC CGL, CHSL, MTS & GD. Covers Reasoning, Maths, English, GK with previous year papers and mock tests.",
+      "Complete coaching for Class 1 to 10 – All Subjects. CBSE, ICSE & U.P. Board pattern with concept clarity, regular tests & doubt sessions.",
     color: "#FF6B00",
     badge: "Most Popular",
   },
   {
     id: 2,
-    title: "Railway / NTPC / Group D",
-    subtitle: "RRB Exam Preparation",
-    icon: Train,
-    duration: "Full Preparation",
+    title: "Class 11th – 12th",
+    subtitle: "PCMB · CBSE, ICSE, U.P. Board",
+    image: "/class-11-12.png",
+    duration: "Full Session",
     students: "120+",
     description:
-      "Focused coaching for RRB NTPC, Group D, ALP & RPF exams. Covers CBT 1 & 2 with topic-wise practice and previous papers.",
+      "Focused coaching for Class 11th–12th PCMB (Physics, Chemistry, Maths, Biology). Board + academic foundation with practical clarity.",
     color: "#1a1a2e",
     badge: "New Batch",
   },
   {
     id: 3,
-    title: "UP Police / SI",
-    subtitle: "UP Police Bharti Exams",
-    icon: Shield,
-    duration: "Full Preparation",
-    students: "150+",
+    title: "Class 11th – 12th (Ag)",
+    subtitle: "Agriculture Stream",
+    image: "/class-11-12-ag.png",
+    duration: "Full Session",
+    students: "80+",
     description:
-      "In-depth preparation for UP Police Constable, Sub-Inspector, and other UP Police exams with current affairs and physical preparation tips.",
+      "Special coaching for Class 11th–12th Agriculture stream. Covers Agronomy, Soil Science & board syllabus with expert guidance.",
     color: "#FF6B00",
     badge: "Top Results",
   },
   {
     id: 4,
-    title: "Bank PO / Clerk",
-    subtitle: "IBPS / SBI Exams",
-    icon: Landmark,
+    title: "B.Sc (PCM / ZBC)",
+    subtitle: "Bachelor of Science",
+    image: "/bsc-pcm.png",
     duration: "Ongoing Batches",
-    students: "200+",
+    students: "90+",
     description:
-      "Special coaching for IBPS PO, Clerk, SBI PO, RBI, and other bank exams. Covers Quant, Reasoning, English, Banking Awareness & mock tests.",
+      "Complete coaching for B.Sc PCM and B.Sc ZBC. Semester-wise preparation, practical support & exam-oriented notes. Free demo classes available.",
     color: "#1a1a2e",
     badge: "High Demand",
   },
@@ -65,8 +65,7 @@ export const CoursesSection = () => {
           </p>
           <h2 className="section-title-center mb-4">All Courses</h2>
           <p className="text-slate max-w-xl mx-auto text-base mt-4">
-            Choose the right program for your career goal. Expert-designed
-            courses for SSC, Railway, UP Police, Bank and other government competitive exams.
+            Choose the right program for your goal. Expert coaching for Class 1st–10th, Class 11th–12th (PCMB & Agriculture) & B.Sc (PCM/ZBC) – CBSE, ICSE & U.P. Board.
           </p>
         </div>
 
@@ -83,17 +82,23 @@ export const CoursesSection = () => {
                 style={{ backgroundColor: course.color }}
               />
 
+              {/* Course Image from public folder */}
+              <div className="relative h-48 overflow-hidden bg-gray-50">
+                <img
+                  src={course.image}
+                  alt={course.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                {/* Badge overlay on image */}
+                <span
+                  className="absolute top-3 left-3 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full text-white shadow-md"
+                  style={{ backgroundColor: course.color }}
+                >
+                  {course.badge}
+                </span>
+              </div>
+
               <div className="p-6 flex flex-col flex-1">
-                {/* Badge */}
-                <div className="flex items-center justify-between mb-4">
-                  <span
-                    className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full text-white"
-                    style={{ backgroundColor: course.color }}
-                  >
-                    {course.badge}
-                  </span>
-                  <course.icon size={30} color={course.color} />
-                </div>
 
                 <h3 className="text-lg font-bold text-navy mb-1 group-hover:text-[#FF6B00] transition-colors">
                   {course.title}

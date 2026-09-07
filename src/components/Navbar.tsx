@@ -10,7 +10,7 @@ const navLinks = [
   {
     name: "Courses",
     href: "#courses",
-    dropdown: ["SSC / CGL / CHSL", "Railway / NTPC / Group D", "UP Police / SI", "Bank PO / Clerk"],
+    dropdown: ["Class 1st – 10th (All Subjects)", "Class 11th – 12th (PCMB)", "Class 11th – 12th (Ag)", "B.Sc (PCM / ZBC)"],
   },
   { name: "Faculty", href: "#faculty" },
   { name: "Results", href: "#results" },
@@ -36,9 +36,9 @@ export const Navbar = () => {
         <div className="section-container flex items-center justify-between">
           <span className="flex items-center gap-2">
             <Phone size={13} />
-            Call Us: 095322 06171
+            Call Us: 91 96275 97251
           </span>
-          <span>Kautilya Study Circle | Azad Nagar, Gonda, Uttar Pradesh</span>
+          <span>Lincoln Coaching Centre | Officer&apos;s Colony, Pilibhit, Uttar Pradesh</span>
         </div>
       </div>
 
@@ -52,14 +52,14 @@ export const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center text-white font-bold text-xl">
-              KS
+              LC
             </div>
             <div>
               <div className="font-bold text-navy text-lg leading-tight">
-                Kautilya Study Circle
+                Lincoln Coaching Centre
               </div>
               <div className="text-[11px] text-[#FF6B00] font-semibold uppercase tracking-wide">
-                Competitive Excellence · Gonda, UP
+                Academic Excellence · Pilibhit, UP
               </div>
             </div>
           </Link>

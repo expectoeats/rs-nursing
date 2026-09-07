@@ -7,22 +7,23 @@ const features = [
   {
     icon: <Newspaper size={26} />,
     title: "Daily Newspapers",
-    description: "Daily newspapers for current affairs preparation — keeping every aspirant updated with national and world events.",
+    description: "Daily newspapers & current updates — keeping every student aware of national and world events.",
+
   },
   {
     icon: <Book size={26} />,
     title: "Reference Books",
-    description: "Standard reference books for Reasoning, Maths, English, GK, and exam-specific subjects for all competitive exams.",
+    description: "Standard reference books for Class 1st–10th, PCMB, Agriculture & B.Sc (PCM/ZBC) across CBSE, ICSE & U.P. Board.",
   },
   {
     icon: <Clock size={26} />,
     title: "Regular Class Schedule",
-    description: "Consistent daily classes to keep aspirants on track throughout their competitive exam preparation.",
+    description: "Consistent daily classes to keep students on track throughout their academic session.",
   },
   {
     icon: <Wifi size={26} />,
     title: "Study Materials",
-    description: "Well-structured notes and practice sets for all subjects covering every competitive exam syllabus.",
+    description: "Well-structured notes and practice sets for all subjects covering every board & university syllabus.",
   },
   {
     icon: <Wind size={26} />,
@@ -48,9 +49,9 @@ export const LibrarySection = () => {
             </p>
             <h2 className="section-title mb-6">Our Library & Resources</h2>
             <p className="text-slate text-base leading-relaxed mb-8">
-              Kautilya Study Circle provides a well-equipped library and comfortable learning
-              environment for competitive exam aspirants. Everything a student needs
-              to excel — all in one place in Gonda, UP.
+              Lincoln Coaching Centre provides a well-equipped library and comfortable learning
+              environment for school & college students. Everything a student needs
+              to excel — all in one place in Pilibhit, UP.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
@@ -75,10 +76,10 @@ export const LibrarySection = () => {
                 Enroll Now
               </a>
               <a
-                href="tel:+919532206171"
+                href="tel:+919627597251"
                 className="border-2 border-[#FF6B00] text-[#FF6B00] font-semibold px-7 py-3 rounded hover:bg-[#FF6B00] hover:text-white transition-colors"
               >
-                Call: 095322 06171
+                Call: 91 96275 97251
               </a>
             </div>
           </div>
@@ -112,7 +113,7 @@ export const LibrarySection = () => {
             {/* Floating stat */}
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-[#FF6B00] text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3 whitespace-nowrap">
               <Clock size={18} />
-              <span className="font-bold text-sm">Open 24 Hours · Gonda, UP</span>
+              <span className="font-bold text-sm">Free Demo Classes · Pilibhit, UP</span>
             </div>
           </div>
         </div>

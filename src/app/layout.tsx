@@ -15,11 +15,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kautilya Study Circle | Best Competitive Exam Coaching Gonda UP",
+  title: "Lincoln Coaching Centre | Best Coaching Pilibhit UP – Class 1 to 12 & B.Sc",
   description:
-    "Kautilya Study Circle — Gonda's #1 coaching center for SSC, Railway, UP Police, Bank exams. Expert faculty, complete library facility, 4.9 ⭐ rated. Opposite Bandhan Bank, Azad Nagar, Gonda.",
+    "Lincoln Coaching Centre — Pilibhit's trusted coaching for Class 1st to 10th (All Subjects), Class 11th–12th (PCMB & Agriculture) & B.Sc (PCM/ZBC). CBSE, ICSE, U.P. Board. Free demo classes. JRRF+267, Officer's Colony, Pilibhit. Call: 91 96275 97251.",
   keywords:
-    "competitive exam coaching Gonda, SSC coaching Gonda, Railway coaching Gonda UP, UP Police coaching Gonda, Bank exam coaching Gonda, Kautilya Study Circle, best coaching Gonda UP",
+    "coaching Pilibhit, Lincoln Coaching Centre, Class 1 to 10 coaching Pilibhit, Class 11 12 PCMB coaching, BSc coaching Pilibhit, CBSE ICSE UP board coaching, best coaching Pilibhit UP",
 };
 
 export default function RootLayout({

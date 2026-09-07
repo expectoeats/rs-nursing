@@ -18,7 +18,7 @@ export const ContactCTA = () => {
                 Get in Touch With Our Counseling Team
               </h3>
               <p className="text-slate text-sm">
-                Free counseling session available. Talk to our competitive exam experts today.
+                Free counseling & demo classes available. Talk to our expert faculty today.
               </p>
             </div>
           </div>
@@ -26,7 +26,7 @@ export const ContactCTA = () => {
           {/* Right */}
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
             <a
-              href="tel:+919532206171"
+              href="tel:+919627597251"
               className="flex items-center gap-2 bg-[#FF6B00] text-white font-semibold px-7 py-3 rounded hover:bg-[#E25900] transition-colors"
             >
               <Phone size={18} /> Call Us Now

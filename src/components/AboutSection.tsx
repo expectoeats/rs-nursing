@@ -5,11 +5,11 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutSection = () => {
   const points = [
-    "Gonda's trusted coaching for all competitive exams — SSC, Railway, UP Police, Bank & more",
-    "Expert faculty with deep subject knowledge and years of exam experience",
-    "Complete library facility making us a one-stop solution for every aspirant",
+    "Pilibhit's trusted coaching for Class 1st to B.Sc – CBSE, ICSE & U.P. Board",
+    "Expert faculty for PCMB, Agriculture & B.Sc (PCM/ZBC) with years of teaching experience",
+    "Complete library & study material making us a one-stop solution for every student",
     "Result-oriented teaching with personal attention to every student",
-    "Positive and supportive learning environment for all learners",
+    "Positive and supportive learning environment – Free demo classes available",
     "Affordable fee structure accessible to all families",
   ];
 
@@ -24,7 +24,7 @@ export const AboutSection = () => {
               <div className="col-span-2 rounded-lg overflow-hidden shadow-lg" style={{ height: "280px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop"
-                  alt="Kautilya Study Circle"
+                  alt="Lincoln Coaching Centre"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -58,14 +58,14 @@ export const AboutSection = () => {
               Who We Are
             </p>
             <h2 className="section-title mb-6">
-              Kautilya Study Circle
+              Lincoln Coaching Centre
             </h2>
 
             <p className="text-slate text-base leading-relaxed mb-4">
-              Welcome to <strong className="text-navy">Kautilya Study Circle</strong> — located Opposite Bandhan Bank, Bahraich Gonda Road, near Roadways Bus Stand, Azad Nagar, Gonda, Uttar Pradesh. We are a premier coaching institute dedicated to aspirants preparing for all competitive exams.
+              Welcome to <strong className="text-navy">Lincoln Coaching Centre</strong> — located at JRRF+267, Officer&apos;s Colony, Pilibhit, Uttar Pradesh 262001. We are a premier coaching institute for students from Class 1st to 10th (All Subjects) and Class 11th–12th (PCMB & Agriculture) & B.Sc (PCM/ZBC).
             </p>
             <p className="text-slate text-base leading-relaxed mb-6">
-              Whether you&apos;re preparing for SSC, Railway, UP Police, Bank exams or any government competitive exam, our classes are designed to help you master every concept with clarity and confidence. Our library facility makes us a complete one-stop solution for every aspirant.
+              Whether you study in CBSE, ICSE or U.P. Board, our classes are designed to build strong fundamentals with clarity and confidence. With free demo classes, expert faculty and library support, we are a complete one-stop solution for every student.
             </p>
 
             {/* Points */}

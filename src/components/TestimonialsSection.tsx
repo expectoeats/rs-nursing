@@ -6,8 +6,8 @@ import { Star, Play, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Rohit Kumar",
-    role: "SSC CGL Aspirant",
-    text: "Best coaching in Gonda for all competitive exams. The faculty here is exceptional and the study environment is truly motivating. Kautilya Study Circle helped me clear my SSC CGL exam with a top score!",
+    role: "Class 10 – CBSE",
+    text: "Best coaching in Pilibhit for school students. The faculty here is exceptional and the study environment is truly motivating. Lincoln Coaching Centre helped me score 96% in Class 10!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -15,8 +15,8 @@ const testimonials = [
   },
   {
     name: "Priya Singh",
-    role: "Railway NTPC Aspirant",
-    text: "Best institute for competitive examinations preparation and also the facility of library makes it a one stop solution for every aspirant. I cleared my Railway NTPC exam in first attempt!",
+    role: "Class 12 PCMB – U.P. Board",
+    text: "Best institute for Class 11–12 preparation and also the facility of library makes it a one stop solution for every student. I scored 94% in U.P. Board PCMB!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -24,8 +24,8 @@ const testimonials = [
   },
   {
     name: "Amit Yadav",
-    role: "UP Police SI Aspirant",
-    text: "Best coaching in Gonda for all competitive exams. The teaching methodology, mock tests and personal attention from faculty helped me crack the UP Police SI exam. Highly recommended!",
+    role: "Class 12 Ag – CBSE",
+    text: "Best coaching in Pilibhit for Agriculture stream. The teaching methodology, regular tests and personal attention from faculty helped me score 92%. Highly recommended!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -33,8 +33,8 @@ const testimonials = [
   },
   {
     name: "Anita Verma",
-    role: "Bank PO Aspirant",
-    text: "The library facility at Kautilya Study Circle is outstanding. Having access to newspapers, reference books and study materials makes it truly a one-stop solution for every aspirant in Gonda.",
+    role: "B.Sc ZBC – Final Year",
+    text: "The library facility at Lincoln Coaching Centre is outstanding. Having access to reference books and study materials makes it truly a one-stop solution for every student in Pilibhit.",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -42,8 +42,8 @@ const testimonials = [
   },
   {
     name: "Vijay Mishra",
-    role: "SSC CHSL Aspirant",
-    text: "Kautilya Study Circle is the best competitive exam institute in Gonda. The dedicated faculty, regular mock tests, and supportive environment gave me the edge to succeed. Cleared SSC CHSL!",
+    role: "B.Sc PCM – 2nd Year",
+    text: "Lincoln Coaching Centre is the best institute in Pilibhit. The dedicated faculty, regular tests, and supportive environment gave me the edge to succeed in B.Sc. PCM!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -56,25 +56,25 @@ const videoTestimonials = [
     name: "Rohit K.",
     thumbnail:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=400&auto=format&fit=crop",
-    label: "SSC CGL Cleared | 2024",
+    label: "Class 10 – 96% | 2024",
   },
   {
     name: "Priya S.",
     thumbnail:
       "https://images.unsplash.com/photo-1523240715630-975bb5732dc1?q=80&w=400&auto=format&fit=crop",
-    label: "Railway NTPC Cleared | 2024",
+    label: "Class 12 PCMB – 94% | 2024",
   },
   {
     name: "Amit Y.",
     thumbnail:
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=400&auto=format&fit=crop",
-    label: "UP Police SI Selected | 2024",
+    label: "Class 12 Ag – 92% | 2024",
   },
   {
     name: "Anita V.",
     thumbnail:
       "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=400&auto=format&fit=crop",
-    label: "Bank PO Qualified | 2024",
+    label: "B.Sc ZBC – 1st Div | 2024",
   },
 ];
 

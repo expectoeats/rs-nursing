@@ -3,16 +3,15 @@
 import React from "react";
 
 const items = [
-  "SSC / CGL / CHSL",
-  "Railway / NTPC / Group D",
-  "UP Police / SI",
-  "Bank PO / Clerk",
-  "Current Affairs & GK",
-  "Reasoning & Maths",
-  "UPSSSC / Lekhpal",
-  "Kautilya Study Circle",
-  "Gonda, UP",
-  "Gonda's Top Competitive Coaching",
+  "Class 1st – 10th (All Subjects)",
+  "Class 11th – 12th (PCMB)",
+  "Class 11th – 12th (Ag)",
+  "B.Sc PCM / ZBC",
+  "CBSE · ICSE · U.P. Board",
+  "Free Demo Classes",
+  "Lincoln Coaching Centre",
+  "Pilibhit, UP",
+  "Officer's Colony, Pilibhit",
 ];
 
 export const MarqueeTicker = () => {

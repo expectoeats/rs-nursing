@@ -28,8 +28,8 @@ export const ContactSection = () => {
               <div>
                 <h4 className="font-bold text-navy mb-1">Our Location</h4>
                 <p className="text-slate text-sm leading-relaxed">
-                  Opposite Bandhan Bank, Bahraich Gonda Road<br />
-                  Near Roadways Bus Stand, Azad Nagar, Gonda, UP 271001
+                  JRRF+267, Officer&apos;s Colony,<br />
+                  Pilibhit, Uttar Pradesh 262001
                 </p>
               </div>
             </div>
@@ -41,10 +41,10 @@ export const ContactSection = () => {
               <div>
                 <h4 className="font-bold text-navy mb-1">Call Us</h4>
                 <a
-                  href="tel:+919532206171"
+                  href="tel:+919627597251"
                   className="text-[#FF6B00] font-bold text-xl hover:underline"
                 >
-                  095322 06171
+                  91 96275 97251
                 </a>
               </div>
             </div>
@@ -62,7 +62,7 @@ export const ContactSection = () => {
             {/* Map */}
             <div className="rounded-xl overflow-hidden border-2 border-gray-100 shadow-sm" style={{ height: "220px" }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.0!2d81.9600!3d27.1333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399fdb4a00000001%3A0x0!2zS2F1dGlseWEgU3R1ZHkgQ2lyY2xlLCBHb25kYQ!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d79.8000!3d28.6333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a000000000001%3A0x0!2zTGluY29sbiBDb2FjaGluZyBDZW50cmUsIE9mZmljZXIncyBDb2xvbnksIFBpbGliaGl0!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -118,10 +118,10 @@ export const ContactSection = () => {
                     Target Class
                   </label>
                   <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors bg-white">
-                    <option>SSC / CGL / CHSL</option>
-                    <option>Railway / NTPC / Group D</option>
-                    <option>UP Police / SI</option>
-                    <option>Bank PO / Clerk</option>
+                    <option>Class 1st – 10th (All Subjects)</option>
+                    <option>Class 11th – 12th (PCMB)</option>
+                    <option>Class 11th – 12th (Ag)</option>
+                    <option>B.Sc (PCM / ZBC)</option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -158,10 +158,10 @@ export const ContactSection = () => {
               <div className="text-center pt-2 border-t border-gray-100">
                 <p className="text-slate text-xs mb-1">Or call directly:</p>
                 <a
-                  href="tel:+919532206171"
+                  href="tel:+919627597251"
                   className="text-navy font-bold text-lg hover:text-[#FF6B00] transition-colors"
                 >
-                  095322 06171
+                  91 96275 97251
                 </a>
               </div>
             </form>

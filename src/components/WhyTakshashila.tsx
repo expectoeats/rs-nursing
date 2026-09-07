@@ -6,8 +6,8 @@ import { Target, Users, BookOpen, MessageCircle, Trophy, Heart, Clock, Wifi } fr
 const features = [
   {
     icon: <Target size={28} />,
-    title: "All Competitive Exams",
-    description: "Complete preparation for SSC, Railway, UP Police, Bank PO/Clerk and all government competitive exams.",
+    title: "Class 1st to B.Sc",
+    description: "Complete preparation for Class 1st–10th (All Subjects), Class 11th–12th (PCMB & Ag) & B.Sc (PCM/ZBC) – all boards.",
   },
   {
     icon: <Users size={28} />,
@@ -22,17 +22,17 @@ const features = [
   {
     icon: <MessageCircle size={28} />,
     title: "Positive Learning",
-    description: "Supportive, encouraging, and result-oriented environment for every competitive exam aspirant.",
+    description: "Supportive, encouraging, and result-oriented environment for every school & college student.",
   },
   {
     icon: <Trophy size={28} />,
     title: "Proven Results",
-    description: "Students consistently clearing SSC, Railway, UP Police, Bank and other government competitive exams.",
+    description: "Students consistently scoring high in board exams and university exams across CBSE, ICSE & U.P. Board.",
   },
   {
     icon: <Heart size={28} />,
     title: "Inclusive Environment",
-    description: "Safe and welcoming institute for all competitive exam aspirants regardless of background.",
+    description: "Safe and welcoming institute for all students from Class 1st to B.Sc regardless of background.",
   },
   {
     icon: <Clock size={28} />,
@@ -41,8 +41,8 @@ const features = [
   },
   {
     icon: <Wifi size={28} />,
-    title: "Open 24 Hours",
-    description: "Always accessible — open 24 hours a day, 7 days a week. Call: 095322 06171.",
+    title: "Free Demo Classes",
+    description: "Try before you join — free demo classes available. Call: 91 96275 97251.",
   },
 ];
 
@@ -57,8 +57,8 @@ export const WhyTakshashila = () => {
           </p>
           <h2 className="section-title-center mb-4">Why Choose Us</h2>
           <p className="text-slate max-w-xl mx-auto text-sm mt-4">
-            Kautilya Study Circle offers everything you need to excel in competitive exams —
-            quality teaching, library facility, personal attention, and a supportive community in Gonda.
+            Lincoln Coaching Centre offers everything you need to excel from school to graduation —
+            quality teaching, library facility, personal attention, and a supportive community in Pilibhit.
           </p>
         </div>
 
@@ -81,9 +81,9 @@ export const WhyTakshashila = () => {
         {/* Bottom Banner */}
         <div className="bg-[#FF6B00] rounded-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-white text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-1">Ready to Start Your Government Career?</h3>
+            <h3 className="text-2xl font-bold mb-1">Ready to Start Your Learning Journey?</h3>
             <p className="text-white/80 text-sm">
-              Join Gonda&apos;s most trusted competitive exam coaching. Admissions open — limited seats.
+              Join Pilibhit&apos;s most trusted coaching for Class 1st to B.Sc. Admissions open — free demo available.
             </p>
           </div>
           <div className="flex gap-4 shrink-0">
@@ -94,7 +94,7 @@ export const WhyTakshashila = () => {
               Admission Open
             </a>
             <a
-              href="tel:+919532206171"
+              href="tel:+919627597251"
               className="border-2 border-white text-white font-bold px-7 py-3 rounded hover:bg-white hover:text-[#FF6B00] transition-colors"
             >
               Call Us
