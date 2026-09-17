@@ -6,34 +6,33 @@ import { Newspaper, Book, Clock, Wifi, Wind, Volume2 } from "lucide-react";
 const features = [
   {
     icon: <Newspaper size={26} />,
-    title: "Daily Newspapers",
-    description: "Daily newspapers & current updates — keeping every student aware of national and world events.",
-
+    title: "Daily English Practice",
+    description: "Daily English reading material, newspapers & current affairs — keeping every student aware and improving their English.",
   },
   {
     icon: <Book size={26} />,
     title: "Reference Books",
-    description: "Standard reference books for Class 1st–10th, PCMB, Agriculture & B.Sc (PCM/ZBC) across CBSE, ICSE & U.P. Board.",
+    description: "Standard English grammar books, IELTS guides, vocabulary builders and communication skill resources for all levels.",
   },
   {
     icon: <Clock size={26} />,
     title: "Regular Class Schedule",
-    description: "Consistent daily classes to keep students on track throughout their academic session.",
+    description: "Consistent daily classes to keep students on track throughout their English learning journey.",
   },
   {
     icon: <Wifi size={26} />,
     title: "Study Materials",
-    description: "Well-structured notes and practice sets for all subjects covering every board & university syllabus.",
+    description: "Well-structured notes, worksheets, practice sets and audio-visual resources for every course.",
   },
   {
     icon: <Wind size={26} />,
-    title: "Comfortable Reading Room",
-    description: "Well-ventilated and spacious library room for comfortable all-day self-study sessions.",
+    title: "Comfortable Learning Room",
+    description: "Well-ventilated and spacious classroom for comfortable learning and self-study sessions.",
   },
   {
     icon: <Volume2 size={26} />,
-    title: "Focused Environment",
-    description: "Disciplined and distraction-free environment to maximize aspirant focus and productivity.",
+    title: "English Speaking Zone",
+    description: "Disciplined and immersive English-speaking environment to maximize practice and fluency.",
   },
 ];
 
@@ -45,13 +44,13 @@ export const LibrarySection = () => {
           {/* Left: Content */}
           <div>
             <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
-              Study Facility
+              Learning Facility
             </p>
-            <h2 className="section-title mb-6">Our Library & Resources</h2>
+            <h2 className="section-title mb-6">Our Resources & Study Material</h2>
             <p className="text-slate text-base leading-relaxed mb-8">
-              Lincoln Coaching Centre provides a well-equipped library and comfortable learning
-              environment for school & college students. Everything a student needs
-              to excel — all in one place in Pilibhit, UP.
+              English Master Institute provides a well-equipped learning center with comprehensive study
+              material and a comfortable environment. Everything an English learner needs
+              to excel — all in one place in Mathura, UP.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
@@ -76,10 +75,10 @@ export const LibrarySection = () => {
                 Enroll Now
               </a>
               <a
-                href="tel:+919627597251"
+                href="tel:+9109761123527"
                 className="border-2 border-[#FF6B00] text-[#FF6B00] font-semibold px-7 py-3 rounded hover:bg-[#FF6B00] hover:text-white transition-colors"
               >
-                Call: 91 96275 97251
+                Call: 09761123527
               </a>
             </div>
           </div>
@@ -113,7 +112,7 @@ export const LibrarySection = () => {
             {/* Floating stat */}
             <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-[#FF6B00] text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3 whitespace-nowrap">
               <Clock size={18} />
-              <span className="font-bold text-sm">Free Demo Classes · Pilibhit, UP</span>
+              <span className="font-bold text-sm">Free Demo Classes · Mathura, UP</span>
             </div>
           </div>
         </div>

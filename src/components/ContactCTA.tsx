@@ -26,7 +26,7 @@ export const ContactCTA = () => {
           {/* Right */}
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
             <a
-              href="tel:+919627597251"
+              href="tel:+9109761123527"
               className="flex items-center gap-2 bg-[#FF6B00] text-white font-semibold px-7 py-3 rounded hover:bg-[#E25900] transition-colors"
             >
               <Phone size={18} /> Call Us Now

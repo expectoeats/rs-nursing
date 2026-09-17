@@ -15,20 +15,18 @@ export const Footer = () => {
           {/* Col 1: Brand */}
           <div className="space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-[#FF6B00] rounded-full flex items-center justify-center text-white font-black text-xl shrink-0">
-                LC
-              </div>
+              <img src="/logo.jpg" alt="English Master Institute" className="w-12 h-12 rounded-full object-cover shrink-0" />
               <div>
                 <div className="font-bold text-white text-lg leading-tight">
-                  Lincoln Coaching Centre
+                  English Master Institute
                 </div>
                 <div className="text-[#FF6B00] text-xs font-semibold">
-                  Academic Excellence · Pilibhit, UP
+                  English Excellence · Mathura, UP
                 </div>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
-              Pilibhit&apos;s trusted coaching for Class 1st–10th (All Subjects), Class 11th–12th (PCMB & Agriculture) & B.Sc (PCM/ZBC). CBSE, ICSE & U.P. Board with free demo classes.
+              Mathura&apos;s premier English coaching for Spoken English, IELTS, Basic to Advanced English, Grammar & Communication Skills. Free demo classes available.
             </p>
             {/* Social Icons */}
             <div className="flex gap-3">
@@ -90,11 +88,11 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               {[
-                "Class 1st – 10th (All Subjects)",
-                "Class 11th – 12th (PCMB)",
-                "Class 11th – 12th (Ag)",
-                "B.Sc (PCM / ZBC)",
-                "CBSE / ICSE / U.P. Board",
+                "Spoken English",
+                "IELTS Preparation",
+                "Basic English",
+                "Advanced English & Grammar",
+                "Communication Skills",
                 "Free Demo Classes",
               ].map((item) => (
                 <li key={item}>
@@ -122,23 +120,24 @@ export const Footer = () => {
               <li className="flex gap-3">
                 <MapPin className="text-[#FF6B00] shrink-0 mt-0.5" size={18} />
                 <span className="text-white/50 text-sm leading-relaxed">
-                  JRRF+267, Officer&apos;s Colony,<br />
-                  Pilibhit, Uttar Pradesh 262001
+                  Advanced institute janakpuri colony,<br />
+                  opposite ambedkar park,<br />
+                  Aurangabad township, Mathura, UP 281006
                 </span>
               </li>
               <li className="flex gap-3">
                 <Phone className="text-[#FF6B00] shrink-0" size={18} />
                 <a
-                  href="tel:+919627597251"
+                  href="tel:+9109761123527"
                   className="text-white/50 text-sm hover:text-white transition-colors"
                 >
-                  91 96275 97251
+                  09761123527
                 </a>
               </li>
               <li className="flex gap-3">
                 <Mail className="text-[#FF6B00] shrink-0" size={18} />
                 <span className="text-white/50 text-sm">
-                  Lincoln Coaching Centre, Pilibhit
+                  English Master Institute, Mathura
                 </span>
               </li>
               <li className="flex gap-3">
@@ -152,7 +151,7 @@ export const Footer = () => {
         {/* Map strip */}
         <div className="rounded-xl overflow-hidden mb-10 border border-white/10" style={{ height: "200px" }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d79.8000!3d28.6333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a000000000001%3A0x0!2zTGluY29sbiBDb2FjaGluZyBDZW50cmUsIE9mZmljZXIncyBDb2xvbnksIFBpbGliaGl0!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0!2d77.6800!3d27.1800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736ce3f4a3c9d7%3A0x0!2sMathura%2C+Uttar+Pradesh!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -164,8 +163,8 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-white/30 text-xs">
-          <p>© 2024 Lincoln Coaching Centre. All Rights Reserved.</p>
-          <p>Officer&apos;s Colony, Pilibhit, Uttar Pradesh</p>
+          <p>© 2024 English Master Institute. All Rights Reserved.</p>
+          <p>Aurangabad Township, Mathura, Uttar Pradesh</p>
           <div className="flex gap-5">
             <Link href="#" className="hover:text-[#FF6B00] transition-colors">
               Privacy Policy

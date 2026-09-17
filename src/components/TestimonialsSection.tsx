@@ -6,8 +6,8 @@ import { Star, Play, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Rohit Kumar",
-    role: "Class 10 – CBSE",
-    text: "Best coaching in Pilibhit for school students. The faculty here is exceptional and the study environment is truly motivating. Lincoln Coaching Centre helped me score 96% in Class 10!",
+    role: "Spoken English – Batch 2024",
+    text: "Best coaching in Mathura for Spoken English. The faculty here is exceptional and the learning environment is truly motivating. English Master Institute helped me speak English fluently in just 3 months!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -15,8 +15,8 @@ const testimonials = [
   },
   {
     name: "Priya Singh",
-    role: "Class 12 PCMB – U.P. Board",
-    text: "Best institute for Class 11–12 preparation and also the facility of library makes it a one stop solution for every student. I scored 94% in U.P. Board PCMB!",
+    role: "IELTS Preparation – 2024",
+    text: "Best institute for IELTS preparation in Mathura. The teaching methodology, regular mock tests and personal attention from faculty helped me score Band 7.5. Highly recommended!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -24,8 +24,8 @@ const testimonials = [
   },
   {
     name: "Amit Yadav",
-    role: "Class 12 Ag – CBSE",
-    text: "Best coaching in Pilibhit for Agriculture stream. The teaching methodology, regular tests and personal attention from faculty helped me score 92%. Highly recommended!",
+    role: "Basic English – Beginner",
+    text: "I started with zero English knowledge. English Master Institute made English so easy to learn. Now I can confidently speak and understand English in daily life. Thank you, sir!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -33,8 +33,8 @@ const testimonials = [
   },
   {
     name: "Anita Verma",
-    role: "B.Sc ZBC – Final Year",
-    text: "The library facility at Lincoln Coaching Centre is outstanding. Having access to reference books and study materials makes it truly a one-stop solution for every student in Pilibhit.",
+    role: "Advanced English & Grammar",
+    text: "The study material and practice sessions at English Master Institute are outstanding. My grammar and vocabulary have improved dramatically. Best English coaching in Mathura!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -42,8 +42,8 @@ const testimonials = [
   },
   {
     name: "Vijay Mishra",
-    role: "B.Sc PCM – 2nd Year",
-    text: "Lincoln Coaching Centre is the best institute in Pilibhit. The dedicated faculty, regular tests, and supportive environment gave me the edge to succeed in B.Sc. PCM!",
+    role: "Spoken English – Batch 2024",
+    text: "English Master Institute is the best institute in Mathura for English learning. The dedicated faculty, regular practice sessions, and supportive environment gave me the confidence to speak English fluently!",
     stars: 5,
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop&facepad=2",
@@ -56,25 +56,25 @@ const videoTestimonials = [
     name: "Rohit K.",
     thumbnail:
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=400&auto=format&fit=crop",
-    label: "Class 10 – 96% | 2024",
+    label: "Spoken English – Fluency Achieved | 2024",
   },
   {
     name: "Priya S.",
     thumbnail:
       "https://images.unsplash.com/photo-1523240715630-975bb5732dc1?q=80&w=400&auto=format&fit=crop",
-    label: "Class 12 PCMB – 94% | 2024",
+    label: "IELTS – Band 7.5 | 2024",
   },
   {
     name: "Amit Y.",
     thumbnail:
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=400&auto=format&fit=crop",
-    label: "Class 12 Ag – 92% | 2024",
+    label: "Basic English – Complete | 2024",
   },
   {
     name: "Anita V.",
     thumbnail:
       "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=400&auto=format&fit=crop",
-    label: "B.Sc ZBC – 1st Div | 2024",
+    label: "Advanced English – Expert Level | 2024",
   },
 ];
 
@@ -97,7 +97,7 @@ export const TestimonialsSection = () => {
           <p className="text-[#FF6B00] font-semibold text-sm uppercase tracking-widest mb-2">
             Student Stories
           </p>
-          <h2 className="section-title-center mb-4">Hear From Our Toppers</h2>
+          <h2 className="section-title-center mb-4">Hear From Our Students</h2>
         </div>
 
         {/* Video Thumbnails */}

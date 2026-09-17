@@ -19,15 +19,15 @@ export const FacultySection = () => {
           <div className="relative">
             <div className="relative rounded-xl overflow-hidden shadow-xl" style={{ height: "480px" }}>
               <img
-                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=600&auto=format&fit=crop"
-                alt="Director - Lincoln Coaching Centre"
+                src="/teacher.jpg"
+                alt="Founder - English Master Institute"
                 className="w-full h-full object-cover object-top"
               />
               {/* Orange gradient overlay at bottom */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#FF6B00] to-transparent h-32" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="font-bold text-xl">Lincoln Coaching Centre</h3>
-                <p className="text-white/80 text-sm">Founder & Director, Lincoln Coaching Centre</p>
+                <h3 className="font-bold text-xl">English Master Institute</h3>
+                <p className="text-white/80 text-sm">Founder & Director, English Master Institute</p>
               </div>
             </div>
 
@@ -44,13 +44,13 @@ export const FacultySection = () => {
             <h2 className="section-title mb-6">Expert & Dedicated Faculty</h2>
 
             <p className="text-slate text-base leading-relaxed mb-4">
-              At <strong className="text-navy">Lincoln Coaching Centre</strong>, our faculty is passionate about making school & graduation education accessible and result-oriented for every student from Class 1st to B.Sc.
+              At <strong className="text-navy">English Master Institute</strong>, our faculty is passionate about making English language learning accessible and result-oriented for every student — from beginners to advanced learners.
             </p>
             <p className="text-slate text-base leading-relaxed mb-4">
-              Our teaching methodology focuses on simplifying complex topics with concept clarity, board-pattern practice and regular tests — making even the most difficult subjects easy to understand and remember.
+              Our teaching methodology focuses on practical English usage with real-life conversations, grammar clarity, vocabulary building, and regular practice sessions — making even the most complex aspects of English easy to understand and apply.
             </p>
             <p className="text-slate text-base leading-relaxed mb-8">
-              We cover all subjects for Class 1st–10th, PCMB & Agriculture for Class 11th–12th and PCM/ZBC for B.Sc — with CBSE, ICSE & U.P. Board expertise, free demo classes and a supportive library facility for every student.
+              We cover Spoken English, IELTS Preparation, Basic English, Advanced Grammar, Communication Skills and Professional English — with free demo classes and comprehensive study material for every student.
             </p>
 
             {/* Stats Grid */}

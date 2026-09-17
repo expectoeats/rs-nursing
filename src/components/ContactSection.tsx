@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Phone, MapPin, Clock, Send, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, Send } from "lucide-react";
 
 export const ContactSection = () => {
   return (
@@ -28,8 +28,9 @@ export const ContactSection = () => {
               <div>
                 <h4 className="font-bold text-navy mb-1">Our Location</h4>
                 <p className="text-slate text-sm leading-relaxed">
-                  JRRF+267, Officer&apos;s Colony,<br />
-                  Pilibhit, Uttar Pradesh 262001
+                  Advanced institute janakpuri colony,<br />
+                  opposite ambedkar park, Aurangabad township,<br />
+                  Mathura, Uttar Pradesh 281006
                 </p>
               </div>
             </div>
@@ -41,10 +42,10 @@ export const ContactSection = () => {
               <div>
                 <h4 className="font-bold text-navy mb-1">Call Us</h4>
                 <a
-                  href="tel:+919627597251"
+                  href="tel:+9109761123527"
                   className="text-[#FF6B00] font-bold text-xl hover:underline"
                 >
-                  91 96275 97251
+                  09761123527
                 </a>
               </div>
             </div>
@@ -62,7 +63,7 @@ export const ContactSection = () => {
             {/* Map */}
             <div className="rounded-xl overflow-hidden border-2 border-gray-100 shadow-sm" style={{ height: "220px" }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.0!2d79.8000!3d28.6333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a000000000001%3A0x0!2zTGluY29sbiBDb2FjaGluZyBDZW50cmUsIE9mZmljZXIncyBDb2xvbnksIFBpbGliaGl0!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.0!2d77.6800!3d27.1800!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736ce3f4a3c9d7%3A0x0!2sMathura%2C+Uttar+Pradesh!5e0!3m2!1sen!2sin!4v1713690000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -115,13 +116,13 @@ export const ContactSection = () => {
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
                   <label className="block text-xs font-bold uppercase tracking-widest text-slate mb-2">
-                    Target Class
+                    Target Course
                   </label>
                   <select className="w-full border border-gray-200 rounded px-4 py-3 text-sm focus:outline-none focus:border-[#FF6B00] transition-colors bg-white">
-                    <option>Class 1st – 10th (All Subjects)</option>
-                    <option>Class 11th – 12th (PCMB)</option>
-                    <option>Class 11th – 12th (Ag)</option>
-                    <option>B.Sc (PCM / ZBC)</option>
+                    <option>Spoken English</option>
+                    <option>IELTS Preparation</option>
+                    <option>Basic English</option>
+                    <option>Advanced English & Grammar</option>
                     <option>Other</option>
                   </select>
                 </div>
@@ -158,10 +159,10 @@ export const ContactSection = () => {
               <div className="text-center pt-2 border-t border-gray-100">
                 <p className="text-slate text-xs mb-1">Or call directly:</p>
                 <a
-                  href="tel:+919627597251"
+                  href="tel:+9109761123527"
                   className="text-navy font-bold text-lg hover:text-[#FF6B00] transition-colors"
                 >
-                  91 96275 97251
+                  09761123527
                 </a>
               </div>
             </form>

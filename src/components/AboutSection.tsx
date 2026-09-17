@@ -5,9 +5,9 @@ import { CheckCircle } from "lucide-react";
 
 export const AboutSection = () => {
   const points = [
-    "Pilibhit's trusted coaching for Class 1st to B.Sc – CBSE, ICSE & U.P. Board",
-    "Expert faculty for PCMB, Agriculture & B.Sc (PCM/ZBC) with years of teaching experience",
-    "Complete library & study material making us a one-stop solution for every student",
+    "Mathura's trusted English coaching for Basic to Advanced levels",
+    "Expert faculty for Spoken English, IELTS, Grammar & Communication Skills",
+    "Complete study material and practice resources for every student",
     "Result-oriented teaching with personal attention to every student",
     "Positive and supportive learning environment – Free demo classes available",
     "Affordable fee structure accessible to all families",
@@ -24,7 +24,7 @@ export const AboutSection = () => {
               <div className="col-span-2 rounded-lg overflow-hidden shadow-lg" style={{ height: "280px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=800&auto=format&fit=crop"
-                  alt="Lincoln Coaching Centre"
+                  alt="English Master Institute"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -32,7 +32,7 @@ export const AboutSection = () => {
               <div className="rounded-lg overflow-hidden shadow-md" style={{ height: "160px" }}>
                 <img
                   src="https://images.unsplash.com/photo-1523240715630-975bb5732dc1?q=80&w=400&auto=format&fit=crop"
-                  alt="Students studying"
+                  alt="Students learning English"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -58,14 +58,14 @@ export const AboutSection = () => {
               Who We Are
             </p>
             <h2 className="section-title mb-6">
-              Lincoln Coaching Centre
+              English Master Institute
             </h2>
 
             <p className="text-slate text-base leading-relaxed mb-4">
-              Welcome to <strong className="text-navy">Lincoln Coaching Centre</strong> — located at JRRF+267, Officer&apos;s Colony, Pilibhit, Uttar Pradesh 262001. We are a premier coaching institute for students from Class 1st to 10th (All Subjects) and Class 11th–12th (PCMB & Agriculture) & B.Sc (PCM/ZBC).
+              Welcome to <strong className="text-navy">English Master Institute</strong> — located at Advanced institute janakpuri colony, opposite ambedkar park, Aurangabad township, Mathura, Uttar Pradesh 281006. We are Mathura&apos;s premier coaching institute for English language learning.
             </p>
             <p className="text-slate text-base leading-relaxed mb-6">
-              Whether you study in CBSE, ICSE or U.P. Board, our classes are designed to build strong fundamentals with clarity and confidence. With free demo classes, expert faculty and library support, we are a complete one-stop solution for every student.
+              Whether you want to learn Basic English, Master Spoken English, prepare for IELTS, or improve your Grammar & Communication Skills — our classes are designed to build strong English foundations with clarity and confidence. With free demo classes, expert faculty and comprehensive study material, we are a complete one-stop solution for every English learner.
             </p>
 
             {/* Points */}

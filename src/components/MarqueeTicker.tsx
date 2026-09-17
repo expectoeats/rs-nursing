@@ -3,15 +3,15 @@
 import React from "react";
 
 const items = [
-  "Class 1st – 10th (All Subjects)",
-  "Class 11th – 12th (PCMB)",
-  "Class 11th – 12th (Ag)",
-  "B.Sc PCM / ZBC",
-  "CBSE · ICSE · U.P. Board",
+  "Spoken English",
+  "IELTS Preparation",
+  "Basic English",
+  "Advanced English & Grammar",
+  "Communication Skills",
   "Free Demo Classes",
-  "Lincoln Coaching Centre",
-  "Pilibhit, UP",
-  "Officer's Colony, Pilibhit",
+  "English Master Institute",
+  "Mathura, UP",
+  "Aurangabad Township, Mathura",
 ];
 
 export const MarqueeTicker = () => {

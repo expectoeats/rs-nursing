@@ -6,29 +6,29 @@ import { Trophy } from "lucide-react";
 const toppers = [
   {
     name: "Rohit Kumar",
-    rank: "Class 10 – 96%",
-    exam: "CBSE · 2024",
+    rank: "Spoken English – Fluent",
+    exam: "Batch 2024",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
   {
     name: "Priya Singh",
-    rank: "Class 12 PCMB – 94%",
-    exam: "U.P. Board · 2024",
+    rank: "IELTS – Band 7.5",
+    exam: "IELTS 2024",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
   {
     name: "Amit Yadav",
-    rank: "Class 12 Ag – 92%",
-    exam: "CBSE · 2024",
+    rank: "Basic English – Complete",
+    exam: "Batch 2024",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
   {
     name: "Anita Verma",
-    rank: "B.Sc ZBC – 1st Div",
-    exam: "University · 2024",
+    rank: "Advanced English – Expert",
+    exam: "Batch 2024",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop&facepad=2",
     batch: "2023-24",
   },
@@ -66,7 +66,7 @@ export const TopperSection = () => {
               Our Pride
             </p>
             <h2 className="text-2xl md:text-3xl font-bold text-white relative pb-3">
-              Successfully Produced 500+ Board & University Toppers
+              Successfully Produced 500+ English Proficient Students
               <span className="absolute bottom-0 left-0 w-12 h-1 bg-white rounded" />
             </h2>
           </div>
@@ -108,15 +108,15 @@ export const TopperSection = () => {
               </div>
               <div>
                 <h3 className="font-bold text-navy text-lg">Student&apos;s Choice</h3>
-                <p className="text-slate text-sm">Why they chose Lincoln Coaching Centre</p>
+                <p className="text-slate text-sm">Why they chose English Master Institute</p>
               </div>
             </div>
 
             <div className="space-y-4">
               {[
                 { label: "Expert Faculty", pct: 95 },
-                { label: "Library Facility", pct: 98 },
-                { label: "Subject Coverage", pct: 92 },
+                { label: "Study Material", pct: 98 },
+                { label: "Spoken Practice", pct: 92 },
                 { label: "Student Results", pct: 90 },
               ].map((item, i) => (
                 <div key={i}>
@@ -136,9 +136,9 @@ export const TopperSection = () => {
 
             <div className="mt-6 pt-6 border-t border-gray-100 text-center">
               <p className="text-slate text-sm italic">
-                &quot;Lincoln Coaching Centre is the best coaching in Pilibhit for Class 1st to B.Sc. The faculty is exceptional and concept clarity is outstanding.&quot;
+                &quot;English Master Institute is the best English coaching in Mathura. The faculty is exceptional and the teaching methodology is outstanding.&quot;
               </p>
-              <p className="text-[#FF6B00] font-semibold text-sm mt-2">— Class 12 Topper, 2024</p>
+              <p className="text-[#FF6B00] font-semibold text-sm mt-2">— IELTS Topper, 2024</p>
             </div>
           </div>
         </div>
